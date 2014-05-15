@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <a href="index.html"><img src="img/logo.jpg" alt="Logo"/></a>
+        <nav>
+            <ul>
+                <li><a href="1.FirstDigitInEnglishWord.html">1</a></li>
+                <li><a href="2.ReverseNumber.html">2</a></li>
+                <li><a href="3.MachInText.html">3</a></li>
+                <li><a href="4.CountDivs.html">4</a></li>
+                <li><a href="5.AppearsInArray.html">5</a></li>
+                <li><a href="6.CheckNeighboars.html">6</a></li>
+                <li><a href="7.FirstElementBiggerFromHisNeighbors.html">7</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="solution">
+        <article class="homework">
+            Write a function that counts how many times given number appears in given array. Write a test function to
+            check if the function is working correctly.
+        </article>
+        <article class="input">
+            <p>Enter array
+                <input id="inputArray"></p>
+            <p>Enter element from array to count
+                <input id="inputElement"></p>
+            <p>
+                <button id="submit" onclick="count()">Submit</button>
+            </p>
+        </article>
+        <article class="result">
+            <p>Result</p>
+            <p id="result"></p>
+        </article>
+    </section>
+    <section class="jsCode">
+        <xmp id="code">
+        </xmp>
+    </section>
+</div>
+<script type="text/javascript" src="scripts/AppearsInArray.js"></script>
+<script>
+    var toAppend = document.getElementById("code");
+    var request = new XMLHttpRequest();
+    request.open("GET", "scripts/AppearsInArray.js", false);
+    request.send(null);
+    toAppend.innerHTML = request.responseText;
+</script>
+</body>
+</html>

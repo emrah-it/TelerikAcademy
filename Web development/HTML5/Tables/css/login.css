@@ -1,0 +1,14 @@
+[type=submit] {
+  width: 55px;
+  height: 35px;
+  background: url('../images/submit.jpg') no-repeat;
+  border: none;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+[type=text] {
+  border: 3px ridge white;
+  border-radius: 3px;
+}

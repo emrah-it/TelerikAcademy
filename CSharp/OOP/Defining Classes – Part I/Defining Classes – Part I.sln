@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phones", "Phones\Phones.csproj", "{352FB24B-0A50-44CD-A477-119EB70B7CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneLibrary", "PhoneLibrary\PhoneLibrary.csproj", "{6DAB949C-6736-4351-9FB3-7DCD75B803B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSMTest", "GSMTest\GSMTest.csproj", "{AB25E38D-4D9B-4FA0-8B16-A6200277E8C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{352FB24B-0A50-44CD-A477-119EB70B7CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352FB24B-0A50-44CD-A477-119EB70B7CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352FB24B-0A50-44CD-A477-119EB70B7CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352FB24B-0A50-44CD-A477-119EB70B7CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAB949C-6736-4351-9FB3-7DCD75B803B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAB949C-6736-4351-9FB3-7DCD75B803B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAB949C-6736-4351-9FB3-7DCD75B803B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAB949C-6736-4351-9FB3-7DCD75B803B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25E38D-4D9B-4FA0-8B16-A6200277E8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25E38D-4D9B-4FA0-8B16-A6200277E8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25E38D-4D9B-4FA0-8B16-A6200277E8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25E38D-4D9B-4FA0-8B16-A6200277E8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

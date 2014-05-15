@@ -1,0 +1,21 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  li{
+    margin-left: 8px;
+    list-style-type: none;
+  }
+  li {
+    & > ul {
+      display: none;
+
+    }
+    &:hover{
+      &>ul{
+        display: block;
+      }
+    }
+  }
+}

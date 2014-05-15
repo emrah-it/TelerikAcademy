@@ -1,0 +1,156 @@
+body,
+div,
+nav,
+ul,
+li article,
+a,
+span,
+p,
+button,
+xmp {
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-size: 15px;
+}
+#wrapper {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+#wrapper header {
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ffffff), color-stop(25%, #73bc46), color-stop(75%, #73bc46), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -o-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -ms-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+  text-align: center;
+  margin-bottom: 5%;
+}
+#wrapper header ul {
+  background: #333333;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #ffffff;
+}
+#wrapper header ul li {
+  font-size: 35px;
+  display: inline-block;
+  width: 5%;
+}
+#wrapper header ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#wrapper header ul li:hover {
+  color: #73bc46;
+}
+#wrapper section.content {
+  text-align: center;
+}
+#wrapper section.content article {
+  color: #ffffff;
+  background-image: url("../img/background.jpg");
+  text-align: left;
+  vertical-align: middle;
+  padding: 7%;
+  font-size: 28px;
+  display: inline-block;
+  width: 50%;
+  margin: 5%;
+  border: 5px groove darkgreen;
+  box-shadow: 0px 0px 120px darkgreen;
+}
+#wrapper section.content article a {
+  margin-top: 5%;
+  display: block;
+  text-align: right;
+  color: #a6d63a;
+}
+#wrapper section.content article a:hover {
+  color: darkgreen;
+}
+#wrapper section.solution {
+  display: inline-block;
+  max-width: 742px;
+  background-image: url("../img/background.jpg");
+  background-repeat: repeat-y;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+#wrapper section.solution .homework {
+  display: inline-block;
+}
+#wrapper section.solution .homework,
+#wrapper section.solution .input {
+  width: 35%;
+  min-width: 200px;
+  padding: 50px 2%;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+#wrapper section.solution .input {
+  display: inline-block;
+  text-align: center;
+  text-align: right;
+}
+#wrapper section.solution .input p {
+  text-align: right;
+}
+#wrapper section.solution .input button {
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ffffff), color-stop(25%, #73bc46), color-stop(75%, #73bc46), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -o-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: -ms-linear-gradient(left, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%, #73bc46 25%, #73bc46 75%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+  border-radius: 20px;
+  border: 3px inset #73bc46;
+  font-size: 1.1em;
+  padding: 3px 8px;
+  margin: 5px 0;
+}
+#wrapper section.solution .input button:active {
+  border: 3px outset #73bc46;
+  background: yellow;
+}
+#wrapper section.solution .result {
+  display: block;
+  margin: 10px;
+  border-radius: 20px;
+  border: 3px solid #73bc46;
+  font-size: 1.5rem;
+}
+#wrapper section.solution .result > p {
+  margin: 1% 0;
+  display: block;
+  color: red;
+}
+#wrapper section.solution .result #result {
+  color: #73bc46;
+}
+#wrapper .jsCode {
+  color: darkblue;
+  text-align: center;
+}
+#wrapper .jsCode xmp {
+  font-weight: bold;
+  padding: 40px;
+  display: inline-block;
+  text-align: left;
+}

@@ -1,0 +1,79 @@
+p,
+div,
+button {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  width: 500px;
+  margin: auto;
+}
+h3 {
+  font-weight: normal;
+}
+.magin-bottom {
+  margin-bottom: 40px;
+}
+.music-categories-style {
+  background-color: #eeeeee;
+  padding: 10px;
+  width: 414px;
+  height: 538px;
+}
+.categories {
+  position: relative;
+  padding: 15px;
+  width: 381px;
+  border: 1px solid #999999;
+  border-top-width: 2px ;
+}
+.categories img {
+  float: left;
+  display: block;
+  width: 129px;
+  height: 86px;
+}
+.categories .buttons {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+.categories p {
+  padding-left: 150px;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 16px;
+}
+.categories p button {
+  background: #880005;
+  background: -moz-linear-gradient(left, #880005 0%, #880005 21%, #cc0001 21%, #cc0001 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #880005), color-stop(21%, #880005), color-stop(21%, #cc0001), color-stop(100%, #cc0001));
+  background: -webkit-linear-gradient(left, #880005 0%, #880005 21%, #cc0001 21%, #cc0001 100%);
+  background: -o-linear-gradient(left, #880005 0%, #880005 21%, #cc0001 21%, #cc0001 100%);
+  background: -ms-linear-gradient(left, #880005 0%, #880005 21%, #cc0001 21%, #cc0001 100%);
+  background: linear-gradient(to right, #880005 0%, #880005 21%, #cc0001 21%, #cc0001 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#880005', endColorstr='#cc0001', GradientType=1);
+  height: 21px;
+  border: 1px outset red;
+}
+.categories p button:first-of-type {
+  width: 70px;
+}
+.categories p button:last-of-type {
+  width: 57px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+  /* IE < 8 */
+}

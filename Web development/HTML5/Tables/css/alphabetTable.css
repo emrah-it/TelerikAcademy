@@ -1,0 +1,21 @@
+table {
+  border: 3px;
+  border-top: 0px;
+  border-left: 0px;
+  border-style: ridge;
+  border-color: white;
+}
+td {
+  width: 30px;
+  height: 20px;
+}
+.centerAlign {
+  text-align: center;
+}
+.rightAligh {
+  text-align: right;
+}
+.downAlign {
+  text-align: right;
+  vertical-align: bottom;
+}

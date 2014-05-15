@@ -1,0 +1,41 @@
+table {
+  background-color: #595959;
+}
+table td {
+  padding-bottom: 15px;
+}
+table tr:last-child > td {
+  padding-bottom: 0px;
+}
+table th {
+  font-weight: normal;
+  font-family: Arial;
+  text-align: left;
+  font-size: 20px;
+  color: #a4b0b1;
+}
+table td {
+  width: 160px;
+}
+table td:first-child {
+  vertical-align: top;
+  font-style: italic;
+  color: #dbdcda;
+}
+.yelloColor {
+  color: #cfc486;
+}
+.redColor {
+  color: #f11331;
+}
+.darkGreay {
+  color: #a4b0b1;
+}
+.clasOrange {
+  color: #dd6928;
+}
+.creenCircle {
+  background-image: url("../images/greenCircle.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}

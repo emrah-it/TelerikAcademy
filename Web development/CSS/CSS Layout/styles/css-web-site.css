@@ -1,0 +1,186 @@
+body,
+div,
+p,
+header,
+nav,
+article,
+aside,
+ul,
+li,
+h2,
+button,
+h1,
+h4,
+article {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  width: 800px;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+body > aside {
+  width: 19%;
+  float: left;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+body > section {
+  margin: 10px 0 10px 0;
+  width: 60%;
+  display: inline-block;
+}
+body aside:last-of-type {
+  margin: 10px 0 10px 0;
+  float: right;
+}
+.left-aside h2 {
+  display: block;
+  margin: 10px 0;
+}
+.left-aside h2 a {
+  color: black;
+  font-size: 1.1rem;
+}
+.left-aside li {
+  font-size: 0.8rem;
+}
+.header-list li:last-of-type {
+  margin: 0px;
+}
+.header-list > li {
+  margin-bottom: 15px;
+}
+.header-list > li > a {
+  font-weight: bold;
+  color: #9b2523;
+}
+.header-list > li ul li a {
+  color: black;
+}
+section {
+  display: block;
+  border: 1px solid #808080;
+  margin: 5px 0px;
+  padding: 5px;
+  background-color: white;
+}
+section article h4 {
+  padding-left: 5px;
+  color: white;
+  background-color: #808080;
+}
+.web-site-header h1 {
+  padding: 30px 0px 20px 0px;
+  font-size: 1.3rem;
+}
+.web-site-header button,
+section.conent p button {
+  background-color: inherit;
+  width: 120px;
+}
+.web-site-header button:first-of-type,
+section.conent p button:first-of-type {
+  background-image: url('../image/previus.png');
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+.web-site-header button:last-of-type,
+section.conent p button:last-of-type {
+  background-image: url('../image/next.png');
+  background-repeat: no-repeat;
+  background-position: 106px 5px;
+}
+section.conent > p {
+  border-top: 2px solid #808080;
+  padding: 5px 0 0px 0;
+}
+.conent {
+  margin: 10px 0 10px 0;
+  width: 98%;
+  border: 2px solid #808080;
+  border-left: 0;
+  border-right: 0;
+  padding: 5px 0 5px 0;
+}
+.conent article {
+  margin-top: 5px;
+}
+.conent article h4 {
+  margin-bottom: 8px;
+}
+.conent article p {
+  padding-left: 8px;
+}
+.conent article p a {
+  line-height: 2rem;
+  color: #9b2523;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.conent .tutorial-css-background {
+  background-image: url('../image/css-text-image.png');
+  background-repeat: no-repeat;
+  background-position: 5px 15px;
+  padding-left: 85px;
+  font-weight: bold;
+}
+.conent .tutorial-css-background:first-line {
+  line-height: 2rem;
+}
+.right-aside article {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #808080;
+}
+.right-aside article h4 {
+  text-transform: uppercase;
+  color: white;
+  background-color: #808080;
+}
+.right-aside a {
+  color: #9b2523;
+  text-decoration: underline;
+}
+.right-aside p {
+  margin: 5px 0 5px 0;
+}
+.site-search p {
+  margin: 2px 0 2px 0;
+  vertical-align: middle;
+}
+.site-search p input {
+  vertical-align: -5%;
+  width: 80px;
+  height: 0.8rem;
+}
+.site-search p button {
+  vertical-align: -22%;
+  width: 25px;
+  height: 1rem;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+  /* IE < 8 */
+}

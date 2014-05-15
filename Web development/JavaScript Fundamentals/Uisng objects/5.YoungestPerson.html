@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <a href="index.html"><img src="img/logo.jpg" alt="Logo"/></a>
+        <nav>
+            <ul>
+                <li><a href="1.Shapes.html">1</a></li>
+                <li><a href="2.RemovePrototypeToArray.html">2</a></li>
+                <li><a href="3.DeepCopy.html">3</a></li>
+                <li><a href="4.IsConteinPropery.html">4</a></li>
+                <li><a href="5.YoungestPerson.html">5</a></li>
+                <li><a href="6.GroupByCryteria.html">6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="solution">
+        <article class="homework">
+            Write a function that finds the youngest person in a given array of persons and prints his/hers full name
+            Each person have properties firstname, lastname and age
+        </article>
+        <article class="input">
+            <p>First Name
+                <input id="firstName"></p>
+            <p>Last Name
+                <input id="lastName"></p>
+            <p>Age
+                <input id="age"></p>
+            <p>
+                <button id="add" onclick="addPerson()">Add</button>
+            </p>
+
+            <p>
+                <button id="showResult" onclick="showResult()">Show result</button>
+            </p>
+        </article>
+        <article class="result">
+            <p>Result</p>
+            <p id="result"></p>
+        </article>
+    </section>
+    <section class="jsCode">
+        <xmp id="code">
+        </xmp>
+    </section>
+</div>
+<script type="text/javascript" src="scripts/YoungestPerson.js"></script>
+<script>
+    var toAppend = document.getElementById("code");
+    var request = new XMLHttpRequest();
+    request.open("GET", "scripts/YoungestPerson.js", false);
+    request.send(null);
+    toAppend.innerHTML = request.responseText;
+</script>
+</body>
+</html>

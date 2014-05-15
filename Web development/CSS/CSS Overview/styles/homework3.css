@@ -1,0 +1,41 @@
+body {
+  color: black;
+  background-color: #a9a9a9;
+}
+body h1 {
+  color: #fafad2;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body p {
+  font-size: 18px;
+}
+body > :first-child {
+  text-align: center;
+}
+body > :first-child ul {
+  padding: 0px;
+}
+body > :first-child ul li {
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: none;
+}
+body > :first-child ul li .current {
+  background-color: #d3d3d3;
+}
+body > :first-child ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body > :first-child ul li:last-child {
+  text-decoration: underline;
+}
+body footer > p {
+  font-size: 14px;
+}
+body > :last-child {
+  text-align: center;
+}
