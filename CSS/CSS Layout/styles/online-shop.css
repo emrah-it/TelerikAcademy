@@ -1,0 +1,92 @@
+ul,
+li,
+header,
+div,
+nav,
+p,
+body,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+body {
+  width: 700px;
+  margin: auto;
+}
+header {
+  overflow: auto;
+}
+header ul {
+  margin: 0px 5%;
+  overflow: auto;
+  padding-left: 30%;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+header ul li {
+  margin: 10px 1px;
+  float: left;
+  display: block;
+}
+header ul li a {
+  color: #00aff0;
+  font-weight: bold;
+  font-size: 17px;
+}
+article {
+  margin: 2% ;
+  padding: 0% 0.5% 0.5% 0.5%;
+  width: 62.6%;
+  border: 2px solid black;
+  overflow: auto;
+  display: inline-block;
+  float: left;
+}
+fieldset {
+  float: left;
+  display: inline-block;
+  width: 210px;
+  height: 125px;
+  margin: 0px 2px 2px 2px;
+  border: 2px solid black;
+  font-size: 13px;
+}
+fieldset legend {
+  text-align: center;
+}
+fieldset img {
+  float: left;
+  display: inline-block;
+}
+fieldset p {
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+}
+fieldset p:last-of-type {
+  margin-left: 40px;
+}
+aside {
+  position: relative;
+  overflow: auto;
+  height: 500px;
+}
+aside .left-aside-wrapper {
+  margin: 40% 0px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+  /* IE < 8 */
+}

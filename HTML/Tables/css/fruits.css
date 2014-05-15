@@ -1,0 +1,17 @@
+body {
+  width: 411px;
+  height: 160px;
+}
+body h1 {
+  font-style: italic;
+  width: 375px;
+  text-align: center;
+  margin: 0px;
+}
+body #content {
+  margin: 0px;
+  padding: 0px;
+  width: 205px;
+  height: 110px;
+  display: inline-block;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles/calculator.css">
+</head>
+<body>
+<div class="calculator">
+    <div class="windowsOptions clearfix">
+        <h1 class="clalculatorTitle">Calculator</h1>
+
+        <div class="winButtons  clearfix">
+            <button class="minimizeButton"></button>
+            <button class="fullSizeButton" disabled></button>
+            <button class="exitButton"></button>
+        </div>
+    </div>
+    <div class="cal-wrapper calculatorBackgroundColor">
+        <div class="menu clearfix">
+            <ul>
+                <li>
+                    <button><span>V</span>iew</button>
+                </li>
+                <li>
+                    <button><span>E</span>dit</button>
+                </li>
+                <li>
+                    <button><span>H</span>elp</button>
+                </li>
+            </ul>
+        </div>
+        <div class="calculator-inside">
+            <div class="boxInset outsie-border inputNumberSize inputFieldBackgroundColor clearfix">
+                <input type="text" class="" id="inputNumbers"/>
+            </div>
+            <div class="outsie-border boxInset bits-margin-padding">
+                <div>
+                    <div class="bits">
+                        <ul class="clearfix all-bits">
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                            <li>0000</li>
+                        </ul>
+                        <ul class="bit-numbers clearfix">
+                            <li>63</li>
+                            <li>47</li>
+                            <li>32</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bits">
+                    <ul class="clearfix all-bits">
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>1000</li>
+                        <li>0111</li>
+                        <li>0001</li>
+                        <li>1011</li>
+                        <li>1011</li>
+                        <li>0111</li>
+                    </ul>
+                    <ul class="bit-numbers clearfix">
+                        <li>31</li>
+                        <li>15</li>
+                        <li>0</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="all-input-buttons">
+                <div class="all-radio-buttons">
+                    <div class="radio-buttons outsie-border">
+                        <ul>
+                            <li><input type="radio" name="numberType" id="hex"/><label for="hex">Hex</label></li>
+                            <li><input type="radio" name="numberType" id="dec"/><label for="dec">Dec</label></li>
+                            <li><input type="radio" name="numberType" id="oct"/><label for="oct">Oct</label></li>
+                            <li><input type="radio" name="numberType" id="bin"/><label for="bin">Bin</label></li>
+                        </ul>
+                    </div>
+                    <div class="radio-buttons outsie-border">
+                        <ul>
+                            <li><input type="radio" name="bitLength" id="qword"/><label for="qword">Qword</label></li>
+                            <li><input type="radio" name="bitLength" id="dword"/><label for="dword">Dword</label></li>
+                            <li><input type="radio" name="bitLength" id="word"/><label for="word">Word</label></li>
+                            <li><input type="radio" name="bitLength" id="byte"/><label for="byte">Byte</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input-buttons">
+                    <div>
+                        <button class="outsie-border inherit-backgroun" value="" disabled>&nbsp;</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">Mod</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>A</button>
+                        <button class="outsie-border boxInset inherit-backgroun-with-hover " value="Mod">MC</button>
+                        <button class="outsie-border boxInset inherit-backgroun-with-hover " value="Mod">MR</button>
+                        <button class="outsie-border boxInset inherit-backgroun-with-hover " value="Mod">MS</button>
+                        <button class="outsie-border boxInset inherit-backgroun-with-hover " value="Mod">M+</button>
+                        <button class="outsie-border boxInset inherit-backgroun-with-hover " value="Mod">M-</button>
+                    </div>
+                    <div>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">(</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">)</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>B</button>
+                        <button class="outsie-border boxInset specialButtons leftArrow" value="Mod"><img
+                                src="images/leftSide.png"/></button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">CE</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">C</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">±</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>√</button>
+                    </div>
+                    <div>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">RoL</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">RoR</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>C</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">7</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">8</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">9</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">/</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>%</button>
+                    </div>
+                    <div>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">Or</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">Xor</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>D</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">4</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">5</button>
+                        <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">6</button>
+                        <button class="outsie-border boxInset specialButtons" value="Mod">*</button>
+                        <button class="dis-button inherit-backgroun" value="" disabled>1/x</button>
+                    </div>
+                    <div class="last-row-buttons">
+                        <div>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">Lsh</button>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">Rsh</button>
+                            <button class="dis-button inherit-backgroun" value="" disabled>E</button>
+                            <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">1</button>
+                            <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">2</button>
+                            <button class="outsie-border boxInset numbersBackgroundColor" value="Mod">3</button>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">-</button>
+                        </div>
+                        <div>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">Not</button>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">And</button>
+                            <button class="dis-button inherit-backgroun" value="" disabled>F</button>
+                            <button class="outsie-border boxInset numbersBackgroundColor" id='zero' value="Mod">0
+                            </button>
+                            <button class="dis-button inherit-backgroun" value="" disabled>.</button>
+                            <button class="outsie-border boxInset specialButtons" value="Mod">+</button>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <button class="outsie-border boxInset specialButtons" value="Mod" id="plusButton" >+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

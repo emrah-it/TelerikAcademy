@@ -1,0 +1,12 @@
+.firstItem > li > ol {
+  padding-left: 18px;
+}
+.firstItem > li > ol > li {
+  padding-left: 8px;
+}
+.firstItem > li > ul {
+  padding-left: 18px;
+}
+.firstItem > li > ul > li {
+  padding-left: 8px;
+}
