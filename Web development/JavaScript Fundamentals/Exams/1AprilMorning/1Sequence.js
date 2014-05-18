@@ -1,10 +1,5 @@
-var test = [7,1,2,-3,4,4,0,1];
-Solve(test);
-test = [6,1,3,-5,8,7,-6];
-Solve(test);
-
-test = [9,1,8,8,7,6,5,7,7,6];
-Solve(test);
+var firstTest = ['7','1','2','-3','4','4','0','1'];
+console.log(Solve(firstTest));
 
 function Solve(params) {
     var N = parseInt(params[0]);
@@ -23,6 +18,6 @@ function Solve(params) {
         }
     }
 
-        answer++;
-        return answer;
+    answer++;
+    return answer;
 }
